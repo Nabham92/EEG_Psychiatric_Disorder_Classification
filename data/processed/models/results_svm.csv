@@ -1,0 +1,73 @@
+main.disorder,Band,Metric,Mean AUC,AUC Lower CI,AUC Upper CI,Mean Sensitivity,Sensitivity Lower CI,Sensitivity Upper CI,Mean Specificity,Specificity Lower CI,Specificity Upper CI
+addictive disorder,alpha,AB,0.77,0.71,0.82,0.77,0.64,0.91,0.75,0.62,0.89
+addictive disorder,beta,AB,0.73,0.69,0.77,0.60,0.48,0.72,0.87,0.78,0.96
+addictive disorder,highbeta,AB,0.76,0.72,0.80,0.74,0.65,0.83,0.80,0.70,0.89
+addictive disorder,gamma,AB,0.76,0.71,0.81,0.60,0.50,0.70,0.93,0.86,0.99
+addictive disorder,theta,AB,0.77,0.71,0.83,0.75,0.63,0.86,0.78,0.71,0.86
+addictive disorder,delta,AB,0.77,0.70,0.83,0.66,0.59,0.74,0.85,0.77,0.93
+addictive disorder,alpha,COH,0.72,0.67,0.77,0.72,0.61,0.82,0.74,0.60,0.87
+addictive disorder,beta,COH,0.77,0.72,0.82,0.72,0.62,0.82,0.80,0.72,0.88
+addictive disorder,highbeta,COH,0.78,0.73,0.84,0.72,0.61,0.84,0.81,0.72,0.91
+addictive disorder,gamma,COH,0.76,0.71,0.80,0.78,0.68,0.89,0.75,0.65,0.85
+addictive disorder,theta,COH,0.76,0.71,0.81,0.78,0.68,0.89,0.71,0.61,0.82
+addictive disorder,delta,COH,0.79,0.72,0.86,0.78,0.72,0.83,0.78,0.70,0.85
+trauma and stress related disorder,alpha,AB,0.87,0.80,0.93,0.73,0.62,0.84,0.93,0.87,0.98
+trauma and stress related disorder,beta,AB,0.88,0.82,0.95,0.82,0.72,0.93,0.92,0.84,1.01
+trauma and stress related disorder,highbeta,AB,0.87,0.83,0.91,0.75,0.65,0.84,0.93,0.87,1.00
+trauma and stress related disorder,gamma,AB,0.89,0.86,0.93,0.81,0.74,0.89,0.94,0.90,0.99
+trauma and stress related disorder,theta,AB,0.88,0.82,0.93,0.81,0.72,0.90,0.92,0.85,1.00
+trauma and stress related disorder,delta,AB,0.87,0.81,0.93,0.79,0.69,0.88,0.95,0.88,1.01
+trauma and stress related disorder,alpha,COH,0.86,0.81,0.92,0.82,0.75,0.89,0.88,0.79,0.97
+trauma and stress related disorder,beta,COH,0.80,0.74,0.87,0.78,0.71,0.86,0.79,0.65,0.93
+trauma and stress related disorder,highbeta,COH,0.80,0.74,0.86,0.75,0.65,0.84,0.86,0.77,0.94
+trauma and stress related disorder,gamma,COH,0.79,0.70,0.89,0.77,0.65,0.88,0.85,0.78,0.92
+trauma and stress related disorder,theta,COH,0.85,0.81,0.90,0.79,0.71,0.87,0.89,0.82,0.96
+trauma and stress related disorder,delta,COH,0.85,0.80,0.90,0.72,0.63,0.81,0.96,0.91,1.00
+mood disorder,alpha,AB,0.79,0.73,0.85,0.70,0.60,0.80,0.89,0.84,0.95
+mood disorder,beta,AB,0.82,0.79,0.86,0.79,0.72,0.86,0.84,0.74,0.93
+mood disorder,highbeta,AB,0.83,0.81,0.86,0.77,0.71,0.83,0.87,0.79,0.95
+mood disorder,gamma,AB,0.84,0.80,0.87,0.71,0.64,0.79,0.89,0.78,1.00
+mood disorder,theta,AB,0.80,0.76,0.85,0.76,0.69,0.82,0.85,0.78,0.91
+mood disorder,delta,AB,0.82,0.79,0.85,0.70,0.59,0.81,0.87,0.78,0.97
+mood disorder,alpha,COH,0.81,0.76,0.87,0.78,0.69,0.88,0.81,0.73,0.89
+mood disorder,beta,COH,0.80,0.74,0.85,0.76,0.71,0.80,0.78,0.71,0.86
+mood disorder,highbeta,COH,0.80,0.75,0.86,0.71,0.63,0.79,0.88,0.81,0.95
+mood disorder,gamma,COH,0.80,0.74,0.85,0.69,0.56,0.82,0.86,0.76,0.96
+mood disorder,theta,COH,0.83,0.77,0.90,0.82,0.72,0.92,0.85,0.72,0.98
+mood disorder,delta,COH,0.81,0.75,0.88,0.82,0.76,0.89,0.78,0.67,0.88
+obsessive compulsive disorder,alpha,AB,0.69,0.59,0.79,0.82,0.67,0.97,0.72,0.60,0.85
+obsessive compulsive disorder,beta,AB,0.65,0.54,0.77,0.82,0.65,0.98,0.68,0.53,0.84
+obsessive compulsive disorder,highbeta,AB,0.60,0.48,0.73,0.77,0.54,0.99,0.66,0.51,0.82
+obsessive compulsive disorder,gamma,AB,0.65,0.56,0.74,0.87,0.78,0.96,0.63,0.46,0.80
+obsessive compulsive disorder,theta,AB,0.60,0.46,0.75,0.67,0.49,0.85,0.77,0.64,0.90
+obsessive compulsive disorder,delta,AB,0.72,0.61,0.83,0.72,0.55,0.89,0.85,0.76,0.93
+obsessive compulsive disorder,alpha,COH,0.72,0.64,0.81,0.77,0.63,0.90,0.76,0.65,0.88
+obsessive compulsive disorder,beta,COH,0.73,0.64,0.83,0.90,0.82,0.98,0.68,0.56,0.80
+obsessive compulsive disorder,highbeta,COH,0.74,0.66,0.82,0.80,0.64,0.96,0.77,0.65,0.90
+obsessive compulsive disorder,gamma,COH,0.66,0.59,0.73,0.78,0.64,0.91,0.64,0.47,0.80
+obsessive compulsive disorder,theta,COH,0.66,0.54,0.77,0.76,0.61,0.91,0.71,0.52,0.89
+obsessive compulsive disorder,delta,COH,0.68,0.55,0.80,0.78,0.59,0.97,0.73,0.56,0.89
+schizophrenia,alpha,AB,0.87,0.81,0.92,0.89,0.78,1.00,0.82,0.76,0.88
+schizophrenia,beta,AB,0.89,0.84,0.94,0.83,0.72,0.94,0.91,0.85,0.98
+schizophrenia,highbeta,AB,0.87,0.83,0.92,0.86,0.78,0.93,0.84,0.77,0.91
+schizophrenia,gamma,AB,0.88,0.83,0.92,0.87,0.78,0.96,0.85,0.76,0.94
+schizophrenia,theta,AB,0.87,0.81,0.92,0.84,0.74,0.95,0.85,0.77,0.93
+schizophrenia,delta,AB,0.91,0.86,0.96,0.89,0.82,0.97,0.88,0.82,0.94
+schizophrenia,alpha,COH,0.82,0.76,0.89,0.81,0.72,0.90,0.84,0.71,0.96
+schizophrenia,beta,COH,0.85,0.76,0.94,0.85,0.78,0.93,0.84,0.73,0.95
+schizophrenia,highbeta,COH,0.83,0.74,0.91,0.81,0.65,0.97,0.85,0.76,0.94
+schizophrenia,gamma,COH,0.85,0.78,0.93,0.88,0.81,0.96,0.84,0.74,0.93
+schizophrenia,theta,COH,0.81,0.75,0.87,0.68,0.59,0.76,0.94,0.88,0.99
+schizophrenia,delta,COH,0.78,0.73,0.84,0.69,0.61,0.76,0.89,0.82,0.96
+anxiety disorder,alpha,AB,0.83,0.78,0.87,0.75,0.62,0.89,0.86,0.79,0.94
+anxiety disorder,beta,AB,0.85,0.80,0.91,0.85,0.79,0.90,0.82,0.71,0.92
+anxiety disorder,highbeta,AB,0.81,0.76,0.85,0.80,0.68,0.93,0.80,0.70,0.90
+anxiety disorder,gamma,AB,0.84,0.78,0.90,0.82,0.71,0.92,0.84,0.75,0.92
+anxiety disorder,theta,AB,0.84,0.81,0.88,0.81,0.73,0.88,0.83,0.74,0.92
+anxiety disorder,delta,AB,0.86,0.82,0.90,0.83,0.74,0.91,0.85,0.77,0.93
+anxiety disorder,alpha,COH,0.77,0.70,0.84,0.68,0.54,0.82,0.87,0.80,0.94
+anxiety disorder,beta,COH,0.76,0.69,0.83,0.70,0.61,0.79,0.85,0.77,0.92
+anxiety disorder,highbeta,COH,0.74,0.67,0.82,0.69,0.54,0.84,0.86,0.74,0.98
+anxiety disorder,gamma,COH,0.79,0.74,0.85,0.73,0.64,0.82,0.82,0.73,0.90
+anxiety disorder,theta,COH,0.80,0.75,0.86,0.76,0.68,0.84,0.84,0.77,0.90
+anxiety disorder,delta,COH,0.84,0.80,0.89,0.86,0.76,0.95,0.79,0.72,0.85
