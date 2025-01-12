@@ -11,11 +11,11 @@ for root, dirs, files in os.walk("."):
         print(os.path.join(root, file))
 
 # Charger les données principales
-df = pd.read_csv(r"data\processed\processed_data.csv")
+df = pd.read_csv(r"data/processed/processed_data.csv")
 df["main.disorder"] = df["main.disorder"].map(lambda x: x if x != "healthy control" else "Healthy Control")
 
 # Charger les résultats finaux (tableau agrégé)
-final_results_df = pd.read_csv(r"dashboard\assets\final_results.csv")
+final_results_df = pd.read_csv(r"dashboard/assets/final_results.csv")
 
 # Compter les effectifs par catégorie
 count_data = df.groupby(["main.disorder"]).size().reset_index(name="Count")
