@@ -4,6 +4,12 @@ import pandas as pd
 import plotly.express as px
 import numpy as np
 
+import os
+
+for root, dirs, files in os.walk("."):
+    for file in files:
+        print(os.path.join(root, file))
+
 # Charger les données principales
 df = pd.read_csv(r"data\processed\processed_data.csv")
 df["main.disorder"] = df["main.disorder"].map(lambda x: x if x != "healthy control" else "Healthy Control")
