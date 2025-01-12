@@ -1,0 +1,19 @@
+main.disorder,ML method,Band,Metric,Mean AUC (95% CI),Mean Sensitivity (95% CI),Mean Specificity (95% CI),p-value
+addictive disorder,elastic_net,beta,AB,0.79 (0.75-0.83),0.73 (0.64-0.82),0.85 (0.76-0.94),0.020
+trauma and stress related disorder,elastic_net,beta,COH,0.90 (0.86-0.94),0.81 (0.74-0.89),0.94 (0.89-0.98),0.020
+mood disorder,elastic_net,delta,AB,0.84 (0.79-0.89),0.73 (0.63-0.83),0.92 (0.86-0.99),0.020
+obsessive compulsive disorder,elastic_net,beta,COH,0.71 (0.59-0.83),0.82 (0.71-0.93),0.75 (0.65-0.85),0.118
+schizophrenia,elastic_net,beta,AB,0.91 (0.87-0.96),0.90 (0.82-0.99),0.88 (0.83-0.94),0.020
+anxiety disorder,elastic_net,theta,COH,0.89 (0.86-0.92),0.84 (0.74-0.94),0.85 (0.78-0.92),0.020
+addictive disorder,random_forest,theta,COH,0.80 (0.74-0.86),0.75 (0.65-0.84),0.84 (0.76-0.91),0.020
+trauma and stress related disorder,random_forest,beta,COH,0.88 (0.82-0.93),0.77 (0.67-0.87),0.90 (0.83-0.98),0.020
+mood disorder,random_forest,beta,COH,0.84 (0.79-0.89),0.82 (0.76-0.87),0.81 (0.72-0.91),0.020
+obsessive compulsive disorder,random_forest,alpha,AB,0.72 (0.64-0.79),0.72 (0.56-0.87),0.83 (0.74-0.92),0.020
+schizophrenia,random_forest,delta,AB,0.90 (0.84-0.95),0.89 (0.76-1.03),0.87 (0.79-0.95),0.020
+anxiety disorder,random_forest,gamma,AB,0.86 (0.81-0.92),0.87 (0.80-0.95),0.83 (0.73-0.92),0.020
+addictive disorder,svm,delta,COH,0.79 (0.72-0.86),0.78 (0.72-0.83),0.78 (0.70-0.85),0.010
+trauma and stress related disorder,svm,gamma,AB,0.89 (0.86-0.93),0.81 (0.74-0.89),0.94 (0.90-0.99),0.010
+mood disorder,svm,gamma,AB,0.84 (0.80-0.87),0.71 (0.64-0.79),0.89 (0.78-1.00),0.010
+obsessive compulsive disorder,svm,highbeta,COH,0.74 (0.66-0.82),0.80 (0.64-0.96),0.77 (0.65-0.90),0.010
+schizophrenia,svm,delta,AB,0.91 (0.86-0.96),0.89 (0.82-0.97),0.88 (0.82-0.94),0.010
+anxiety disorder,svm,delta,AB,0.86 (0.82-0.90),0.83 (0.74-0.91),0.85 (0.77-0.93),0.010
