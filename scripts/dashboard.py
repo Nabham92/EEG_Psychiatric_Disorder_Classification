@@ -4,7 +4,7 @@ import plotly.express as px
 from pathlib import Path
 
 # Configurer la page Streamlit
-st.set_page_config(page_title="Dashboard Interactif - Pathologies EEG", layout="wide")
+st.set_page_config(page_title="Dashboard Interactif - Classification de troubles psychiatriques avec données EEG", layout="wide")
 
 # Fonction pour générer l'interprétation
 def generate_interpretation(filtered_df, disorder):
@@ -56,8 +56,11 @@ if processed_data_path.exists() and final_results_path.exists():
     st.title("Dashboard Interactif - Pathologies EEG")
 
     # Introduction
-    with st.expander("Introduction"):
-        st.markdown("""
+    
+    st.markdown("""
+                    
+            Ce dashboard interactif présente les performances de modèles de classification des troubles psychiatriques à partir de signaux EEG.
+             Il permet de visualiser les résultats détaillés les performances de la meilleure combinaison bande/métrique pour chaque pathologie.
         - **Band et Metric** : Type de bande de fréquences EEG et la métrique associée (AB = PSD (Power Spectral Density) et COH = Cohérence).
         - **Mean AUC (95% CI)** : Aire sous la courbe ROC et son intervalle de confiance à 95 %.
         - **Mean Sensitivity & Mean Specificity (95% CI)** : Sensibilité et spécificité moyennes avec leurs IC à 95 %.
@@ -105,7 +108,7 @@ with col2:
 
     # Ajustements pour un barplot compact
     fig.update_layout(
-        title_x=0.5,
+        title_x=0.1,
         height=350,  # Réduire la hauteur
         margin=dict(l=10, r=10, t=40, b=20),
         plot_bgcolor="#2c2c2c",  # Fond sombre
