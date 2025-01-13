@@ -62,7 +62,10 @@ if processed_data_path.exists() and final_results_path.exists():
             Ce dashboard interactif présente les performances de modèles de classification des troubles psychiatriques à partir de signaux EEG.
              Il permet de visualiser les résultats détaillés les performances de la meilleure combinaison bande/métrique pour chaque pathologie.
         - **Band et Metric** : Type de bande de fréquences EEG et la métrique associée (AB = PSD (Power Spectral Density) et COH = Cohérence).
-        - **Mean AUC (95% CI)** : Aire sous la courbe ROC et son intervalle de confiance à 95 %.
+        - **Mean AUC (95% CI)** : Aire sous la courbe ROC et son intervalle de confiance à 95 %. Les intervalles de confiance ont été calculés par approximation normale.
+                 Bien que cette méthode soit une approximation rapide, elle repose sur des hypothèses de normalité 
+                qui peuvent être remises en question dans des cas de classes déséquilibrées ou de petits échantillons. 
+   
         - **Mean Sensitivity & Mean Specificity (95% CI)** : Sensibilité et spécificité moyennes avec leurs IC à 95 %.
         - **p-value** : Reflète la significativité statistique (test de permutation) pour déterminer si la performance est au-dessus du hasard.
         - **Healthy Control** : Groupe témoin pour comparer avec les différentes pathologies.
