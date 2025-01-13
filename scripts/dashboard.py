@@ -53,7 +53,7 @@ if processed_data_path.exists() and final_results_path.exists():
     count_data = df.groupby(["main.disorder"]).size().reset_index(name="Count")
 
     # Interface utilisateur
-    st.title("Dashboard Interactif - Classification de troubles psychiatriques avec données EEG")
+    st.title("Dashboard Interactif - Classification de troubles psychiatriques")
 
     # Introduction
     
